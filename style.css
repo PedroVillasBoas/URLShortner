@@ -36,7 +36,7 @@ body {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
-.container i{
+.container i {
     font-size: 100px;
     margin-bottom: 10px;
 }
@@ -55,7 +55,8 @@ label {
     display: block;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 15px;
@@ -67,11 +68,11 @@ input, textarea {
     font-weight: 500;
 }
 
-input::placeholder{
+input::placeholder {
     color: #222;
 }
 
-.buttons{
+.buttons {
     display: flex;
     gap: 10px;
 }

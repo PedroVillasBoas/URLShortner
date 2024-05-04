@@ -4,7 +4,7 @@ const reloadBtn = document.getElementById('reload-btn');
 shortBtn.addEventListener('click', shortenUrl);
 
 function shortenUrl() {
-  let longUrl = document.getElementById('originalUrl').ariaValueMax;
+  let longUrl = document.getElementById('originalUrl').value;
   let apiUrl = 'https://tinyurl.com/api-create.php?url=' + encodeURIComponent(longUrl);
   shortnedUrlTextArea = document.getElementById('shortnedUrl');
 
@@ -14,3 +14,7 @@ function shortenUrl() {
     shortnedUrlTextArea.value = 'Error: Unable to shorten URL! ' + error;
   });
 }
+
+reloadBtn.addEventListener('click', () => {
+    location.reload();
+});

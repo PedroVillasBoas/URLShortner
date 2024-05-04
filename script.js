@@ -15,12 +15,14 @@ function shortenUrl() {
   shortnedUrlTextArea = document.getElementById("shortnedUrl"); // Get the textarea to display the shortned URL
 
   // Fetch the API
-  fetch(apiUrl) 
+  fetch(apiUrl)
     .then((response) => response.text()) // Get the response as text
-    .then((data) => {                    // Handle the data
-      shortnedUrlTextArea.value = data;  // Display the shortned URL in the textarea
+    .then((data) => {
+      // Handle the data
+      shortnedUrlTextArea.value = data; // Display the shortned URL in the textarea
     })
-    .catch((error) => {                  // Handle the error
+    .catch((error) => {
+      // Handle the error
       shortnedUrlTextArea.value = "Error: Unable to shorten URL! " + error;
     });
 }

@@ -35,3 +35,64 @@ body {
     -webkit-backdrop-filter: blur(2px);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
+
+.container i{
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+input::placeholder{
+    color: #222;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 500;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+textarea {
+    resize: none;
+}

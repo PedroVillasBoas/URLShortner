@@ -25,8 +25,8 @@ The "URL Shorten" project is a simple web-based URL shortener, developed by Pedr
 No installation is required for this project as it runs directly in the browser. Simply clone the repository and open the `index.html` file in your web browser.
 
 ```bash
-git clone https://github.com/yourgithubusername/url-shorten.git
-cd url-shorten
+git clone https://github.com/yourgithubusername/URLShortner.git
+cd URLShortner
 open index.html # or use any web browser to open the file
 ```
 

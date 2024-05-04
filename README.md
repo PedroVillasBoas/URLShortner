@@ -51,3 +51,8 @@ Contributions are welcome! For major changes, please open an issue first to disc
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
+
+## Project made by:
+
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/47667167?v=4" width=115><br><sub>Pedro Villas Boas</sub>](https://github.com/PedroVillasBoas) |
+| :---: | 
